@@ -1,22 +1,26 @@
 ## This is a Computerized Employee Appraisal Management System (Ceams).
 
-## By Kyomuhendo Milliam, Aikomo Joseph and Baraka Mark Bright
+## By Paul Adeleye
 
-## This is a final year project for the award of a Bachelor of Science in Information Technology.
+## This is a project to be used at Afya Care.
 
-## Supervised by Dr. Andogah Geoffrey, the Faculty Dean Muni University
+## Supervised by Data Analyst - Edward Ogbei.
 
 ## Developed in Laravel 7 as a backend framework and Bootstrap as the Frontend framework.
 
 ## The database is managed by MySQL.
 
 ## Credits
-1. Dr. Andogah Geoffrey - Supervisor
-2. Human Resource Department Muni University
-3. ICT Department Muni University
+
+1. Mark Ugbomah (CTO, Afya Care)
+2. Wale Adeniji (Senior DevOps Engineer, Octosoft Technology)
+3. Edward Ogbei (Data Analyst, Octosoft Technology)
+4. Itunuoluwa Ogunnaike (Network Engineer, Octosoft Technology)
+5. OctoSquad
 
 Installation Steps
-1. Clone the repo 
+
+1. Clone the repo
 2. Run Composer Install
 3. Copy .env.example to .env
 4. Generate APP_KEY
@@ -26,11 +30,9 @@ Installation Steps
 8. Run npm install
 9. Run npm run dev
 10. Start the server
-11. Open url in browser 
-12. Login as an HR (hr@muni.ac.ug and helloworld) as email and password respectivelly.
+11. Open url in browser
+12. Login as an HR (paul.adeleye@rjolad.com and octosoft) as email and password respectivelly.
 13. Start exploring the app.
 14. Feel free to give us a star
 
 Screenshots of the system
-
-

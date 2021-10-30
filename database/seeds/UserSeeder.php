@@ -14,11 +14,11 @@ class UserSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'staff_id' => 'mu001',
-            'name' => 'Mark Bright Baraka',
-            'email' => 'mark@muni.ac.ug',
-            'password' => Hash::make('helloworld'),
-            'role' => 'HR',
+            'staff_id' => 'OT001',
+            'name' => 'Paul Adeleye',
+            'email' => 'paul.adeleye@rjolad.com',
+            'password' => Hash::make('octosoft'),
+            'role' => 'IT',
             'status'=> '1',
         ]);
     }
