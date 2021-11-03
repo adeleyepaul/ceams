@@ -11,7 +11,7 @@
           <ul class="navbar-nav mr-auto">
           <li class="nav-item"><a class="nav-link text-light" href="{{ url('/') }}">Dashboard</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="{{ route('particulars.index') }}">Particulars</a></li>
-            <li class="nav-item"><a class="nav-link text-light" href="{{ route('achievement-assessment') }}">Achivement Assessment</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="{{ route('achievement-assessment') }}">Achievement Assessment</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="{{ route('appraisal.index') }}">Appraisal Form</a></li>
             @can('isDean', Auth::user()->role)
              <li class="nav-item"><a class="nav-link text-light" href="{{ route('comments.index') }}">Comments</a></li>
@@ -25,7 +25,7 @@
 
           </ul>
           <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link text-light" href="#">Hi,</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#">Hi, {{ Auth::user()->name }}</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
             <form id="logout-form" action="{{ route('logout') }}" method="POST"
                   style="display: none;">

@@ -25,19 +25,19 @@ Home
                   </div>
                     <div class="col-sm-3">
                       <div class="well dash-box">
-                        <h2><span class="fa fa-list-alt" aria-hidden="true"></span> 12</h2>
+                        <h2><span class="fa fa-list-alt" aria-hidden="true"></span> 0</h2>
                         <h4>Pending</h4>
                       </div>
                     </div>
                     <div class="col-sm-3">
                       <div class="well dash-box">
-                        <h2><span class="fa fa-envelope" aria-hidden="true"></span> 33</h2>
+                        <h2><span class="fa fa-envelope" aria-hidden="true"></span> 0</h2>
                         <h4>Messages</h4>
                       </div>
                     </div>
                     <div class="col-sm-3">
                       <div class="well dash-box">
-                        <h2><span class="fa fa-tasks" aria-hidden="true"></span> 124</h2>
+                        <h2><span class="fa fa-tasks" aria-hidden="true"></span> 0</h2>
                         <h4>Tasks</h4>
                       </div>
                     </div>

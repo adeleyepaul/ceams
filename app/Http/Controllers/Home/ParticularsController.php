@@ -81,7 +81,7 @@ class ParticularsController extends Controller
         $this->validate($request,
         [
             'avator' => 'image|mimes:jpeg,jpg,png,webp',
-            'email' => 'required|string|email|max:255|regex:/(.*)@muni\.ac.ug/i',
+            'email' => 'required|string|email|max:255',
             'phone' => 'required',
             'dob' => 'required',
         ]);

@@ -17,18 +17,18 @@ Appraisal Form
             </h3>
           </div>
           <div class="card-body">
-              <h2>STAFF PERFORMANCE REPORT APPRAISAL FORM FOR ACADEMIC STAFF</h2>
+              <h2>STAFF PERFORMANCE REPORT APPRAISAL FORM</h2>
               <strong>Performance Assessment Report for the Period ended: {{date('d M, Y') }}</strong>
               <br><br>
               <h4>Introduction</h4>
               <p>
-                  Staff Performance Assessment id part of the Performance Management System of Muni University.
-                  It is used as a management tool for establishing the extent to which set targets within overall mandates of the university are achieved.
-                  trhough staff performance evaluation, performance gaps and development needs of an individual employee are identified.
+                  Staff Performance Assessment is part of the Performance Management System of AfyaCare.
+                  It is used as a management tool for establishing the extent to which set targets within overall mandates of the organization are achieved.
+                  through staff performance evaluation, performance gaps and development needs of an individual employee are identified.
                   The evaluation process offers an opportunity to the staff and Supervisors to dialogue and as well as obtain a feedback on performance. It is
-                  our call as a Univeristy to encourage participatory approach to the evaluation process and consistence in filling this form.
+                  our call to encourage participatory approach to the evaluation process and consistence in filling this form.
               </p>
-              <strong>Perion of Assessment: 01 January 2020 to 31 Decemeber 2020</strong>
+              <strong>Period of Assessment: 01 January 2020 to 31 Decemeber 2021</strong>
               <br><br><br>
               <h4>Section A</h4>
               <strong>1.0 Staff Particulars</strong>
@@ -89,168 +89,202 @@ Appraisal Form
                       </tbody>
                     </table>
 
-             <br><br>
-              <strong>2.0 ACHIEVEMENTS OF ACADEMIC STAFF IN YEAR UNDER REVIEW</strong>
               <br>
-              <strong>PART A: Studies Undertaken </strong>
-              <table class="table table-responsive-sm">
-                  <thead>
-                      <tr>
-                          <th>#</th>
-                          <th>Course</th>
-                          <th>Institution</th>
-                          <th>Expected Award</th>
-                          <th>Date of Completion</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>1</td>
-                          <td>IT Essentials</td>
-                          <td>Muni University</td>
-                          <td>Certificate</td>
-                          <td>20/April/2020</td>
-                      </tr>
-                  </tbody>
-              </table>
-              <br><br><br>
-              <h4>SECTION B: ASSESSMENT OF THE LEVEL OF ACHIEVEMENT OF AGREED OUTPUTS AND TARGETS</h4>
-              <table class="table table-responsive-sm">
-                  <thead>
-                      <tr>
-                          <th>#</th>
-                          <th>Key Outputs</th>
-                          <th>Performance Indicators</th>
-                          <th>Performance Indicators</th>
-                          <th>Performance Level</th>
-                          <th>Comment</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>1</td>
-                          <td>Job description one</td>
-                          <td>performance indicator</td>
-                          <td>performance indicator</td>
-                          <td>performance level</td>
-                          <td>comment</td>
-                      </tr>
-                  </tbody>
-                  <br>
-                  <tfoot>
-                      <tr>
-                          <th colspan="2">Average Score : 87%</th>
-                          <th colspan="4">Grade : <strong>OUTSTANDING</strong></th>
-                      </tr>
-                  </tfoot>
-              </table>
-              <br><br><br>
-              <h4>SECTION C: ASSESSMENT OF CORE COMPETENCIES AND WORK RELATED BEHAVIOUR</h4>
-              <table class="table table-responsive-sm">
-                  <thead>
-                      <tr>
-                          <th>#</th>
-                          <th>Competencies and Work Related Behaviour</th>
-                          <th>Evaluation Outcome <small>(Performance Level Attained)</small></th>
-                          <th>Comments</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>1</td>
-                          <td>Ability to apply professional Skills</td>
-                          <td>3</td>
-                          <td>Comment goes here</td>
-                      </tr>
-                  </tbody>
-                  <tfoot>
-                      <tr>
-                          <th colspan="2">Average Score : 88%</th>
-                          <th colspan="4">Grade : GOOD</th>
-                      </tr>
-                  </tfoot>
-              </table>
-              <br><br><br>
-              <h4>SECTION D: OVERALL ASSESSMENT OF PERFORMANCE</h4>
-              <table class="table">
-                  <tfoot>
-                      <tr>
-                          <th>KEY RESULTS AREA : 88%</th>
-                          <th>COMPETENCIES: 68%</th>
-                          <th>OVERALL PERFORMANCE : 79%</th>
-                          <th>GRADE : GOOD</th>
-                      </tr>
-                  </tfoot>
-              </table>
-              <br><br><br>
-              <h4>SECTION E: RECOMMENDATIONS</h4>
-              <p>Basing on your performance, you have been recommended the following</p>
-              <table class="table table-responsive-sm">
-                  <thead>
-                      <tr>
-                          <th>#</th>
-                          <th>Recommendations</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>1</td>
-                          <td>Confirmation in service/renewal of contract</td>
-                      </tr>
-                  </tbody>
-              </table>
-
-              <br><br><br>
-              <h4>SECTION E: PERFORMANCE IMPROVEMENT ACTION PLAN</h4>
-              <table class="table table-responsive-sm">
-                  <thead>
-                      <tr>
-                          <th>#</th>
-                          <th>Performance Gaps</th>
-                          <th>Agreed Action Plan</th>
-                          <th>Time Frame</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>1</td>
-                          <td>Performance gaps specific to the period under assessment 1</td>
-                          <td>Agreed action plan to address gap identified</td>
-                          <td>2 days</td>
-                      </tr>
-                  </tbody>
-              </table>
-
-              <br><br><br>
-              <h4>COMMENTS</h4>
-              <strong>Appraisee/Staff</strong>
-              <p>
-                  This is the staff/appraisee comment
-              </p>
-              <strong>Signature :  <span class="float-right">Date : 23 April, 2020</span></strong>
-
-              <br><br>
-
-              <strong>Supervisor/Appraiser</strong>
-              <p>
-                  This is the supervisor comment
-              </p>
-              <strong>Signature :  <span class="float-right">Date : 23 April, 2020</span></strong>
-              <br><br>
-
-              <strong>Faculty Dean</strong>
-              <p>
-                  This is the staff/appraisee comment
-              </p>
-              <strong>Signature :  <span class="float-right">Date : 23 April, 2020</span></strong>
-              <br><br>
-
-              <strong>University Secretary/Accounting Officer</strong>
-              <p>
-                  This is the staff/appraisee comment
-              </p>
-              <strong>Signature :  <span>Date : 23 April, 2020</span></strong>
-
+              <h4>SECTION B: APPRAISAL ASSESSMENT</h4>
+              <form enctype="multipart/form-data" class="form-horizontal" action="{{ route('personal-appraisal')}}" method="POST">
+                @csrf
+                <table class="table table-bordered table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th style="text-align: center;" colspan="1">ASSESSMENT FORM</th>
+                            <th colspan="12" style="text-align: center;">SCROEBOARD</th>
+                        </tr>
+                        <tr>
+                            <th>#</th>
+                            <th>Performance Factors</th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                            <th>10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <input type="hidden" value="{{ Auth::user()->staff_id }}" name="staff_id">
+                            <td>1</td>
+                            <td>Accountability <br> (Demonstrates a high level of ownership/commitment to achieve results)</td>
+                                <td><input type="radio" id="1" name="accountability" value="1" required></td>
+                                <td><input type="radio" id="2" name="accountability" value="2"></td>
+                                <td><input type="radio" id="3" name="accountability" value="3"></td>
+                                <td><input type="radio" id="4" name="accountability" value="4"></td>
+                                <td><input type="radio" id="5" name="accountability" value="5"></td>
+                                <td><input type="radio" id="6" name="accountability" value="6"></td>
+                                <td><input type="radio" id="7" name="accountability" value="7"></td>
+                                <td><input type="radio" id="8" name="accountability" value="8"></td>
+                                <td><input type="radio" id="9" name="accountability" value="9"></td>
+                                <td><input type="radio" id="10" name="accountability" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Integrity & Trustworthy <br>
+                                (Achieves a high level of trust in relationships Adheres to the organization values and guidelines of conduct Actions are consistent with words Communicates high personal standards)
+                                </td>
+                                <td><input type="radio" id="1" name="integrity" value="1" required></td>
+                                <td><input type="radio" id="2" name="integrity" value="2"></td>
+                                <td><input type="radio" id="3" name="integrity" value="3"></td>
+                                <td><input type="radio" id="4" name="integrity" value="4"></td>
+                                <td><input type="radio" id="5" name="integrity" value="5"></td>
+                                <td><input type="radio" id="6" name="integrity" value="6"></td>
+                                <td><input type="radio" id="7" name="integrity" value="7"></td>
+                                <td><input type="radio" id="8" name="integrity" value="8"></td>
+                                <td><input type="radio" id="9" name="integrity" value="9"></td>
+                                <td><input type="radio" id="10" name="integrity" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Decision Making/Judgment <br>
+                                (Assess the importance, urgency and risk associated with each situation and takes actions which ara timely and in the best interests of the company)
+                                </td>
+                                <td><input type="radio" id="1" name="judgement" value="1" required></td>
+                                <td><input type="radio" id="2" name="judgement" value="2"></td>
+                                <td><input type="radio" id="3" name="judgement" value="3"></td>
+                                <td><input type="radio" id="4" name="judgement" value="4"></td>
+                                <td><input type="radio" id="5" name="judgement" value="5"></td>
+                                <td><input type="radio" id="6" name="judgement" value="6"></td>
+                                <td><input type="radio" id="7" name="judgement" value="7"></td>
+                                <td><input type="radio" id="8" name="judgement" value="8"></td>
+                                <td><input type="radio" id="9" name="judgement" value="9"></td>
+                                <td><input type="radio" id="10" name="judgement" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Communication skills <br>(Effectively presents and receives information both orally and in writing)</td>
+                                <td><input type="radio" id="1" name="communication" value="1" required></td>
+                                <td><input type="radio" id="2" name="communication" value="2"></td>
+                                <td><input type="radio" id="3" name="communication" value="3"></td>
+                                <td><input type="radio" id="4" name="communication" value="4"></td>
+                                <td><input type="radio" id="5" name="communication" value="5"></td>
+                                <td><input type="radio" id="6" name="communication" value="6"></td>
+                                <td><input type="radio" id="7" name="communication" value="7"></td>
+                                <td><input type="radio" id="8" name="communication" value="8"></td>
+                                <td><input type="radio" id="9" name="communication" value="9"></td>
+                                <td><input type="radio" id="10" name="communication" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Quality of work <br>
+                                (Sets and adheres to priorities. Meats established standards, deadlines and work schedules uses resources efficiently and economically)
+                                </td>
+                                <td><input type="radio" id="1" name="quality" value="1" required></td>
+                                <td><input type="radio" id="2" name="quality" value="2"></td>
+                                <td><input type="radio" id="3" name="quality" value="3"></td>
+                                <td><input type="radio" id="4" name="quality" value="4"></td>
+                                <td><input type="radio" id="5" name="quality" value="5"></td>
+                                <td><input type="radio" id="6" name="quality" value="6"></td>
+                                <td><input type="radio" id="7" name="quality" value="7"></td>
+                                <td><input type="radio" id="8" name="quality" value="8"></td>
+                                <td><input type="radio" id="9" name="quality" value="9"></td>
+                                <td><input type="radio" id="10" name="quality" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Quantity of work <br>
+                                (Completes assignments by or before deadline. Produces acceptable quantity of work Works at a steady pace regardless of environmental pressures)
+                                </td>
+                                <td><input type="radio" id="1" name="quantity" value="1" required></td>
+                                <td><input type="radio" id="2" name="quantity" value="2"></td>
+                                <td><input type="radio" id="3" name="quantity" value="3"></td>
+                                <td><input type="radio" id="4" name="quantity" value="4"></td>
+                                <td><input type="radio" id="5" name="quantity" value="5"></td>
+                                <td><input type="radio" id="6" name="quantity" value="6"></td>
+                                <td><input type="radio" id="7" name="quantity" value="7"></td>
+                                <td><input type="radio" id="8" name="quantity" value="8"></td>
+                                <td><input type="radio" id="9" name="quantity" value="9"></td>
+                                <td><input type="radio" id="10" name="quantity" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Leadership/Coach1ng skills <br>
+                                (Demonstrates ability to direct team in accomplishing work Creates a culture supportive of staff, fosters individual motivation, high levels of individual and team performance
+                                </td>
+                                <td><input type="radio" id="1" name="leadership" value="1" required></td>
+                                <td><input type="radio" id="2" name="leadership" value="2"></td>
+                                <td><input type="radio" id="3" name="leadership" value="3"></td>
+                                <td><input type="radio" id="4" name="leadership" value="4"></td>
+                                <td><input type="radio" id="5" name="leadership" value="5"></td>
+                                <td><input type="radio" id="6" name="leadership" value="6"></td>
+                                <td><input type="radio" id="7" name="leadership" value="7"></td>
+                                <td><input type="radio" id="8" name="leadership" value="8"></td>
+                                <td><input type="radio" id="9" name="leadership" value="9"></td>
+                                <td><input type="radio" id="10" name="leadership" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Safety <br>
+                                (Aware of the company safety and security policles and regulations Reports potential safety hazards)
+                                </td>
+                                <td><input type="radio" id="1" name="safety" value="1" required></td>
+                                <td><input type="radio" id="2" name="safety" value="2"></td>
+                                <td><input type="radio" id="3" name="safety" value="3"></td>
+                                <td><input type="radio" id="4" name="safety" value="4"></td>
+                                <td><input type="radio" id="5" name="safety" value="5"></td>
+                                <td><input type="radio" id="6" name="safety" value="6"></td>
+                                <td><input type="radio" id="7" name="safety" value="7"></td>
+                                <td><input type="radio" id="8" name="safety" value="8"></td>
+                                <td><input type="radio" id="9" name="safety" value="9"></td>
+                                <td><input type="radio" id="10" name="safety" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Commitment <br>
+                                (Demonstrates trust to carryout work and rely on the person to do an accurate job)
+                                </td>
+                                <td><input type="radio" id="1" name="commitment" value="1" required></td>
+                                <td><input type="radio" id="2" name="commitment" value="2"></td>
+                                <td><input type="radio" id="3" name="commitment" value="3"></td>
+                                <td><input type="radio" id="4" name="commitment" value="4"></td>
+                                <td><input type="radio" id="5" name="commitment" value="5"></td>
+                                <td><input type="radio" id="6" name="commitment" value="6"></td>
+                                <td><input type="radio" id="7" name="commitment" value="7"></td>
+                                <td><input type="radio" id="8" name="commitment" value="8"></td>
+                                <td><input type="radio" id="9" name="commitment" value="9"></td>
+                                <td><input type="radio" id="10" name="commitment" value="10"></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Organization and Planning skills <br>
+                                (Uses an effective methodology to determine priorities, set goals, create a plan, take action and measure results)
+                                </td>
+                                <td><input type="radio" id="1" name="planning" value="1" required></td>
+                                <td><input type="radio" id="2" name="planning" value="2"></td>
+                                <td><input type="radio" id="3" name="planning" value="3"></td>
+                                <td><input type="radio" id="4" name="planning" value="4"></td>
+                                <td><input type="radio" id="5" name="planning" value="5"></td>
+                                <td><input type="radio" id="6" name="planning" value="6"></td>
+                                <td><input type="radio" id="7" name="planning" value="7"></td>
+                                <td><input type="radio" id="8" name="planning" value="8"></td>
+                                <td><input type="radio" id="9" name="planning" value="9"></td>
+                                <td><input type="radio" id="10" name="planning" value="10"></td>
+                        </tr>
+                    </tbody>
+                    <br>
+                    <tfoot>
+                        <tr>
+                                <td colspan="12" style="text-align: right">
+                                    <button class="btn btn-secondary" type="reset">Cancel</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </td>
+                        </tr>
+                    </tfoot>
+                </table>
+              </form>
 
           </div>
         </div>

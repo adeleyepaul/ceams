@@ -13,12 +13,12 @@ Appraisee List
               <h4 class="text-custom" style="text-transform: capitalize">{{ $staff->name }}</h4>
             </div>
             <a href="{{ route('staff-particulars', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Staff Particulars </a>
-            <a href="{{ route('staff-achievements', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom active"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Staff Achievement </a>
+            {{-- <a href="{{ route('staff-achievements', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom active"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Staff Achievement </a> --}}
             <a href="{{ route('achievements-assessment', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Achievement Assessment </a>
             <a href="{{ route('core-competences', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Core Competence Assessment </a>
             <a href="{{ route('recommendations', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Recommendations </a>
             <a href="{{ route('action-plan', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Performance Improvement Action Plan </a>
-            <a target="_blank" href="{{ route('appraisal.view', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> View Form </a>
+            {{-- <a target="_blank" href="{{ route('appraisal.view', $staff->staff_id) }}" class="list-group-item list-group-item-action border-custom"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> View Form </a> --}}
         </div>
       </div>
       <div class="col-md-8">
@@ -26,6 +26,7 @@ Appraisee List
         <div class="card shadow">
           <div class="card-header border-custom pt-1 pb-1">
             <h3 class="card-title text-custom">Staff Achivements</h3>
+            <button data-toggle="modal" data-target="#addNew" class="float-right btn btn-primary" title="Add new"><span class="fa fa-plus"></span></button>
           </div>
           <div class="card-body border-custom">
             <h4>Studies Undertaken</h4><hr>
@@ -109,4 +110,72 @@ Appraisee List
       </div>
     </div>
   </div>
+  
+  {{-- Modal --}}
+  <!-- Button trigger modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Adding Action Plan</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+            <form action="{{ route('action-plan.store') }}" method="post">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                            @csrf
+                            <input type="hidden" name="id" value="{{ $staff->staff_id }}">
+                            <div class="form-group">
+                                <label for="">Performance Gaps</label>
+                                <textarea name="performance_gap" id="" class="@error('performance_gap') is-invalid @enderror form-control" placeholder=""></textarea>
+                                <small id="helpId" class="text-muted">Specific to period under assessment</small>
+                                @error('performance_gap')
+                                <small class="invalid-feedback">
+                                    <strong>{{ $message }}</strong>
+                                </small>
+                                @enderror
+                            </div>
+                            <div class="form-group">
+                                <label for="">Agreed Action Plan</label>
+                                <textarea name="action_plan" id="" class="@error('action_plan') is-invalid @enderror form-control" placeholder=""></textarea>
+                                <small id="helpId" class="text-muted">To address the gaps identified</small>
+                                @error('action_plan')
+                                <small class="invalid-feedback">
+                                    <strong>{{ $message }}</strong>
+                                </small>
+                                @enderror
+                            </div>
+                            <div class="form-group">
+                                <label for="">Time Frame</label>
+                                <input type="text" name="time_frame" id="" class="@error('time_frame') is-invalid @enderror form-control" placeholder="" aria-describedby="helpId">
+                                <small id="helpId" class="text-muted">Specific to period under assessment</small>
+                                @error('time_frame')
+                                <small class="invalid-feedback">
+                                    <strong>{{ $message }}</strong>
+                                </small>
+                                @enderror
+                            </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+          </div>
+      </div>
+  </div>
+
+  <script>
+      $('#exampleModal').on('show.bs.modal', event => {
+          var button = $(event.relatedTarget);
+          var modal = $(this);
+          // Use above variables to manipulate the DOM
+
+      });
+  </script>
 @endsection

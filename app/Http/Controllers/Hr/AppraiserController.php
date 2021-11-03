@@ -55,7 +55,7 @@ class AppraiserController extends Controller
     // appraisee appraisees
     public function appraisees($id)
     {
-        $staff = User::where('appraiser_status', NULL)->where('status', '1')->where('staff_id', '!=', $id)->get();
+        $staff = User::where('status', '1')->where('staff_id', '!=', $id)->get();
         $appraisees = User::where('appraiser_status', $id)->paginate(5);
         $currentStaff = User::findOrfail($id);
         return view('hr.pages.appraisers.manage', compact('appraisees', 'id', 'staff', 'currentStaff'));

@@ -97,6 +97,13 @@ Route::group(['prefix' => '/', 'middleware' => 'auth', 'namespace' => 'Home'], f
 });
 
 
+    //Apprasier Form
+    Route::post('/appraisal/store', 'AppraisalController@create_form')->name('personal-appraisal');
+    Route::get('/test', 'AppraisalController@sumup');
+
+    //temp
+    Route::get('/products', 'TestController@test')->name('products');
+
 //Hr routes
 Route::group(['prefix' => '/hr', 'middleware' => 'can:isHR, hr', 'namespace' => 'Hr'], function (){
     Route::get('/', 'HomeController@index')->name('hr.index');

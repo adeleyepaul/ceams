@@ -44,4 +44,14 @@ class AppraisalController extends Controller
 
         }
     }
+
+    public function create(Request $request)
+    {
+        return "hello";
+    }
+
+    public function test()
+    {
+        print_r(route('products'));
+    }
 }

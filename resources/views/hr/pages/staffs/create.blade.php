@@ -145,16 +145,6 @@ Home
                               <option value="M1">M 1</option>
                               <option value="M2">M 2</option>
                               <option value="M3">M 3</option>
-                              <option value="M4">M 4</option>
-                              <option value="M5">M 5</option>
-                              <option value="M6.1">M 6.1</option>
-                              <option value="M6.2">M 6.2</option>
-                              <option value="M7">M 7</option>
-                              <option value="M10">M 10</option>
-                              <option value="M12">M 12</option>
-                              <option value="M13">M 13</option>
-                              <option value="M15">M 15</option>
-                              <option value="M20">M 20</option>
                           </select>
                           @error('salary_scale')
                               <span class="invalid-feedback" role="alert">
@@ -194,6 +184,17 @@ Home
                             </span>
                         @enderror
                       </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="password" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                          @error('password')
+                            <span class="invalid-feedback" role="alert">
+                              <strong>{{ $message }}</strong>
+                            </span>
+                          @enderror
+                        </div>
                     </div>
                     {{-- <div class="form-group row">
                       <label for="inputSkills" class="col-sm-2 col-form-label">Other Role</label>

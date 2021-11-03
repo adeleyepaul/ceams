@@ -13,7 +13,7 @@ class CreateResearchActiviesTable extends Migration
      */
     public function up()
     {
-        Schema::create('research_activies', function (Blueprint $table) {
+        Schema::create('research_activities', function (Blueprint $table) {
             $table->id();
             $table->string('staff_id');
             $table->string('status')->nullable();

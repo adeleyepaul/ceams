@@ -28,26 +28,26 @@ Home
             <div class="row">
               <div class="col-md-3">
                 <div class="well dash-box">
-                  <h2><span class="fa fa-bell" aria-hidden="true"></span> 12</h2>
+                  <h2><span class="fa fa-bell" aria-hidden="true"></span> 0</h2>
                   <h4>Notifications</h4>
                 </div>
               </div>
                 <div class="col-md-3">
                   <div class="well dash-box">
-                    <h2><span class="fa fa-list-alt" aria-hidden="true"></span> 12</h2>
-                    <h4>Pending</h4>
+                    <h2><span class="fa fa-ambulance" aria-hidden="true"></span> 0</h2>
+                    <h4>Self Appraisal</h4>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="well dash-box">
-                    <h2><span class="far fa-pencil" aria-hidden="true"></span> 33</h2>
-                    <h4>Posts</h4>
+                    <h2><span class="fa fa-list-alt" aria-hidden="true"></span> 0</h2>
+                    <h4>Team lead Appraisal</h4>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="well dash-box">
-                    <h2><span class="fa fa-ambulance" aria-hidden="true"></span> 124</h2>
-                    <h4>Visitors</h4>
+                    <h2><span class="far fa-pencil" aria-hidden="true"></span> 0</h2>
+                    <h4>HOU Appraisal</h4>
                   </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ Home
         </div>
 
           <!-- Latest Users -->
-        <div class="card">
+        {{-- <div class="card">
           <div class="card-header border-custom pt-1 pb-1">
             <h3 class="card-title text-custom">Latest Users</h3>
           </div>
@@ -93,7 +93,8 @@ Home
                 </tr>
               </table>
           </div>
-        </div>
+        </div> --}}
+        
       </div>
     </div>
   </div>

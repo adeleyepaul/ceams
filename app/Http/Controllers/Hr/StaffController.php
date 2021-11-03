@@ -51,8 +51,8 @@ class StaffController extends Controller
         [
             'avator' => 'image|mimes:jpeg,jpg,png,webp',
             'name' => 'required',
-            'staff_id' => 'required|unique:user',
-            'email' => 'required|unique:users|email',
+            'staff_id' => 'required|unique:users',
+            'email' => 'required|unique:users|string|email|max:255',
             'phone' => 'required',
             'department' => 'required',
             'date_of_birth' => 'required',
@@ -61,6 +61,7 @@ class StaffController extends Controller
             'salary_scale' => 'required',
             'appointment_date' => 'required',
             'terms_of_service' => 'required',
+            'password' => 'required',
         ]);
 
         $file = $request->file('avator');
@@ -80,7 +81,7 @@ class StaffController extends Controller
             $staff->avator = $imagename;
             $staff->staff_id = $request->staff_id;
             $staff->name = $request->name;
-            $staff->password = Hash::make($password);
+            $staff->password = Hash::make($request->password);
             $staff->email = $request->email;
             $staff->dob = $request->date_of_birth;
             $staff->phone = $request->phone;
@@ -96,7 +97,7 @@ class StaffController extends Controller
 
             if ($save) {
                 Alert::success('Inserted', 'Staff successfully created!');
-                Mail::to($staff->email)->send(new HrRegistration($email, $password));
+                // Mail::to($staff->email)->send(new HrRegistration($email, $password));
                 return redirect()->back();
                 }else{
                     Session::flash('error', 'Staff not added. An error occured');

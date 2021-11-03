@@ -15,10 +15,10 @@ Login
                        <h1 class="text-center pt-5 login-title">Computerised Employee Appraisal Management System</h1>
                        <div class="pt-5 text-center">
                         <span><b>For more information: </b></span><br>
-                        <span><label class="font-weight-bold">Call :</label> +256773034311 or +256758029195</span><br>
+                        <span><label class="font-weight-bold">Call :</label> +2347030258008</span><br>
                         <span><label class="font-weight-bold">Contact :</label> <a href="mailto:admin@admin.com">admin@admin.com</a></span>
                         <hr class="bg-custom">
-                       <small class="text-primary">&copy Muni University Human Resource Department</small>
+                       {{-- <small class="text-primary">&copy Muni University Human Resource Department</small> --}}
                        </div>
 
                      </div>
@@ -28,7 +28,8 @@ Login
                        <div class="col-md-9 col-lg-9">
                          <div class="card-body">
                            <div class="text-center">
-                             <img src="{{config('app.url')}}/logo.png" class="img-fluid">
+                             {{-- <img src="{{config('app.url')}}/logo.png" class="img-fluid"> --}}
+                             <h3>Login Here</h3>
                            </div>
                             <div class="container-fluid"></div>
                             <form method="POST" action="{{ route('login') }}">
@@ -58,10 +59,10 @@ Login
                               <div class="form-group">
                                 <input type="submit" class="btn btn-outline-primary container" value="Login">
                               </div>
-                              <div class="justify-content-between">
+                              {{-- <div class="justify-content-between">
                                     <span class="col-lg-6"><a href="{{ route('password.request') }}" class="float-left">Forgot Password?</a></span>
                                     <span class="col-lg-6"><a href="{{ route('register') }}" class="float-right">Register</a></span>
-                                  </div>
+                                  </div> --}}
                             </form>
                          </div>
                        </div>
