@@ -98,7 +98,7 @@ Appraisal Form
                         <tr>
                             <th></th>
                             <th style="text-align: center;" colspan="1">ASSESSMENT FORM</th>
-                            <th colspan="12" style="text-align: center;">SCROEBOARD</th>
+                            <th colspan="12" style="text-align: center;">SCOREBOARD</th>
                         </tr>
                         <tr>
                             <th>#</th>

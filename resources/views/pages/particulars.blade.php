@@ -173,6 +173,21 @@ Particulars
                           </div>
                       </div>
                       <div class="form-group row">
+                        <label for="department" class="col-sm-2 col-form-label">Department</label>
+                        <div class="col-sm-10">
+                          {{-- <input type="text" value="{{old('department')}}"  class="@error('department') is-invalid @enderror form-control" id="department" name="department" placeholder="Department"> --}}
+                          <select name="department" class="@error('department') is-invalid @enderror form-control" id="faculty">
+                              <option value="Computer and Information Sciences">Computer and Information Sciences</option>
+                              <option value="Nursing">Nursing</option>
+                          </select>
+                          @error('department')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+                        </div>
+                      </div>
+                      <div class="form-group row">
                         <div class="offset-sm-2 col-sm-10">
                         	<div class="btn-group">
                         		<button class="btn btn-secondary" type="reset">Cancel</button>
