@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CEAMS | HR | @yield('title') </title>
+    <!-- Favicon and Touch Icons -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/ico">
+    {{-- <link href="/images/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="images/android-chrome.png" rel="apple-touch-icon" sizes="512x512">
+    <link href="images/android-chrome-192x192.png" rel="apple-touch-icon" sizes="192x192"> --}}
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Custom css -->

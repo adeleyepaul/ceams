@@ -124,6 +124,7 @@ class ParticularsController extends Controller
             $staff->email = $request->email;
             $staff->phone = $request->phone;
             $staff->dob = $request->dob;
+            $staff->job_title = $request->job_title;
             $save = $staff->save();
 
 

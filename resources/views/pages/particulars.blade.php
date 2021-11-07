@@ -188,6 +188,86 @@ Particulars
                         </div>
                       </div>
                       <div class="form-group row">
+                        <label for="faculty" class="col-sm-2 col-form-label">Faculty</label>
+                        <div class="col-sm-10">
+                          {{-- <input type="text" value="{{old('faculty')}}" class="@error('faculty') is-invalid @enderror form-control"  name="faculty" id="faculty" placeholder="Faculty"> --}}
+                          <select name="faculty" class="@error('faculty') is-invalid @enderror form-control" id="faculty">
+                              <option value="TechnoScience">TechnoScience</option>
+                              <option value="Health Science">Health Sciences</option>
+                              <option value="Education">Education</option>
+                              <option value="Management Science">Management Science</option>
+                          </select>
+                          @error('faculty')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="job-title" class="col-sm-2 col-form-label">Job Title</label>
+                        <div class="col-sm-10">
+                          {{-- <input type="text" value="{{old('job_title')}}"    name="job_title" id="job-title" placeholder="Job Title"> --}}
+                          <select class="@error('job_title') is-invalid @enderror form-control" name="job_title" id="job-title">
+                              @foreach ($particulars as $particular)
+                              <option value="{{ $particular->job_title }}">{{ $particular->job_title }}</option>
+                              @endforeach
+                          </select>
+                          @error('job_title')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="salary_scale" class="col-sm-2 col-form-label">Salary Scale</label>
+                        <div class="col-sm-10">
+                          <select name="salary_scale" class="@error('salary_scale') is-invalid @enderror form-control" id="salary_scale">
+                              <option value="M1">M 1</option>
+                              <option value="M2">M 2</option>
+                              <option value="M3">M 3</option>
+                          </select>
+                          @error('salary_scale')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="appointment" class="col-sm-2 col-form-label">Appointment Date</label>
+                      <div class="col-sm-10">
+                        <input type="date" value="{{old('appointment_date')}}" class="@error('appointment_date') is-invalid @enderror form-control"   id="appointment-date" name="appointment_date" placeholder="Appointment Date">
+                        @error('appointment_date')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="terms-of-service" class="col-sm-2 col-form-label">Terms of Service</label>
+                      <div class="col-sm-10">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                              <input type="radio" name="terms_of_service" id="full-time" autocomplete="off" checked value="Full Time"> Full Time
+                            </label>
+                            <label class="btn btn-secondary">
+                              <input type="radio" name="terms_of_service" id="contract" autocomplete="off" value="Contract"> Contract
+                            </label>
+                            <label class="btn btn-secondary">
+                              <input type="radio" name="terms_of_service" id="part-time" autocomplete="off" value="Part Time"> Part-Time
+                            </label>
+                        </div>
+                        @error('terms_of_service')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                      </div>
+                    </div>
+                      <div class="form-group row">
                         <div class="offset-sm-2 col-sm-10">
                         	<div class="btn-group">
                         		<button class="btn btn-secondary" type="reset">Cancel</button>
